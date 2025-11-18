@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;         
+    gap: 20px;                       
+    padding: 20px;
+}
+
+.gallery-item {
+    width: calc(33.33% - 20px);      
+    display: flex;
+    justify-content: center;         
+    align-items: center;             
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;              
+    border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 20px);
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<h2>Photo Gallery (Flexbox)</h2>
+
+<div class="gallery">
+
+    <div class="gallery-item">
+        <a href="https://en.wikipedia.org/wiki/Sword" target="_blank">
+            <img src="./sword.jpg" alt="sword">
+        </a>
+    </div>
+
+    <div class="gallery-item">
+        <a href="https://en.wikipedia.org/wiki/Sword" target="_blank">
+            <img src="./sword.jpg" alt="sword">
+        </a>
+    </div>
+
+    <div class="gallery-item">
+        <a href="https://en.wikipedia.org/wiki/Sword" target="_blank">
+            <img src="./sword.jpg" alt="sword">
+        </a>
+    </div>
+
+    <div class="gallery-item">
+        <a href="https://en.wikipedia.org/wiki/Sword" target="_blank">
+            <img src="./sword.jpg" alt="sword">
+        </a>
+    </div>
+
+    <div class="gallery-item">
+        <a href="https://en.wikipedia.org/wiki/Sword" target="_blank">
+            <img src="./sword.jpg" alt="sword">
+        </a>
+    </div>
+
+    <div class="gallery-item">
+        <a href="https://en.wikipedia.org/wiki/Sword" target="_blank">
+            <img src="./sword.jpg" alt="sword">
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+nav {
+    background: #98d4fc;       
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(247, 190, 190);
+    font-size: 18px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        background: #2ecc71; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;        
+        margin: 10px 0;
+    }
+
+    nav {
+        background: #8e44ad;    
+    }
+}
+</style>
+</head>
+
+<body>
+
+<h2>Responsive Navigation Menu</h2>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

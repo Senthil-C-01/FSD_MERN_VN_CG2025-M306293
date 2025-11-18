@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.parent {
+    width: 350px;
+    height: 350px;
+    background: #7fbac2;
+    position: relative; 
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.relative-box {
+    background: #3498db;
+    position: relative;
+    top: 20px;        
+    left: 20px;       
+}
+
+
+.absolute-box {
+    background: #e74c3c;
+    position: absolute;
+    bottom: 0;        
+    right: 0;
+}
+
+
+.fixed-box {
+    background: #2ecc71;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="parent">
+    <div class="box relative-box">Relative</div>
+    <div class="box absolute-box">Absolute</div>
+</div>
+
+<div class="box fixed-box">Fixed</div>
+
+<p style="height:1500px;">Scroll to see...</p>
+
+</body>
+</html>
