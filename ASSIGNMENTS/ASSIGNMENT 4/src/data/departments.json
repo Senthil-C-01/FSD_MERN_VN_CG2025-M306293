@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "The CSE department focuses on software, algorithms, and computing.",
+    "courses": ["Data Structures and Algorithms", "Operating Systems", "Database Management Systems"],
+    "faculty": ["Dr. Kumar", "Dr. Meena", "Prof. Raj"],
+    "labs": ["Programming Lab", "Networks Lab", "AI Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "The IT department covers information systems, networking, and cybersecurity.",
+    "courses": ["Computer Networks", "Cyber Security", "Web Development"],
+    "faculty": ["Dr. Sharma", "Dr. Patel", "Prof. Singh"],
+    "labs": ["Networking Lab", "Security Lab", "Web Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics and Communication Engineering",
+    "description": "The ECE department deals with electronics, communication systems, and embedded systems.",
+    "courses": ["Digital Electronics", "Communication Systems", "Embedded Systems"],
+    "faculty": ["Dr. Gupta", "Dr. Rao", "Prof. Nair"],
+    "labs": ["Electronics Lab", "Communication Lab", "Embedded Lab"]
+  },
+  {
+    "id": "mechanical",
+    "name": "Mechanical Engineering",
+    "description": "The Mechanical department focuses on design, manufacturing, and thermal systems.",
+    "courses": ["Thermodynamics", "Fluid Mechanics", "Machine Design"],
+    "faculty": ["Dr. Verma", "Dr. Joshi", "Prof. Agarwal"],
+    "labs": ["Thermal Lab", "Fluid Lab", "Design Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "The Civil department covers construction, structures, and environmental engineering.",
+    "courses": ["Structural Analysis", "Geotechnical Engineering", "Environmental Engineering"],
+    "faculty": ["Dr. Tiwari", "Dr. Saxena", "Prof. Mishra"],
+    "labs": ["Structures Lab", "Geotech Lab", "Environmental Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "description": "The MBA department offers business management and leadership programs.",
+    "courses": ["Marketing Management", "Financial Management", "Human Resource Management"],
+    "faculty": ["Dr. Jain", "Dr. Kapoor", "Prof. Sharma"],
+    "labs": ["Business Simulation Lab", "Case Study Lab", "Finance Lab"]
+  },
+  {
+    "id": "electrical",
+    "name": "Electrical Engineering",
+    "description": "The Electrical Engineering department focuses on power systems, control systems, and electrical machines.",
+    "courses": ["Power Systems", "Control Systems", "Electrical Machines", "Renewable Energy"],
+    "faculty": ["Dr. Reddy", "Dr. Khan", "Prof. Iyer"],
+    "labs": ["Power Lab", "Control Lab", "Machines Lab"]
+  },
+  {
+    "id": "biomedical",
+    "name": "Biomedical Engineering",
+    "description": "The Biomedical Engineering department integrates engineering with medical sciences to develop solutions for healthcare.",
+    "courses": ["Biomedical Instrumentation", "Medical Imaging", "Biomechanics", "Bioinformatics"],
+    "faculty": ["Dr. Bose", "Dr. Chatterjee", "Prof. Das", "Dr. Saha"],
+    "labs": ["Biomedical Lab", "Imaging Lab", "Biomechanics Lab", "Bioinformatics Lab"]
+  },
+  {
+    "id": "chemical",
+    "name": "Chemical Engineering",
+    "description": "The Chemical Engineering department focuses on chemical processes, materials, and energy.",
+    "courses": ["Process Engineering", "Chemical Reaction Engineering", "Materials Science", "Polymer Science"],
+    "faculty": ["Dr. Mukherjee", "Dr. Banerjee", "Prof. Ghosh", "Dr. Ray"],
+    "labs": ["Chemical Lab", "Process Lab", "Materials Lab", "Polymer Lab"]
+  },
+  {
+    "id": "aerospace",
+    "name": "Aerospace Engineering",
+    "description": "The Aerospace Engineering department deals with aircraft and spacecraft design and propulsion.",
+    "courses": ["Aerodynamics", "Propulsion Systems", "Aircraft Structures", "Spacecraft Design"],
+    "faculty": ["Dr. Chakraborty", "Dr. Sengupta", "Prof. Roy", "Dr. Mitra"],
+    "labs": ["Aerodynamics Lab", "Propulsion Lab", "Structures Lab", "Space Lab"]
+  }
+]

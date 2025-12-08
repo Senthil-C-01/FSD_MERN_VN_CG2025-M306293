@@ -1,0 +1,9 @@
+.departments {
+  padding: 2rem;
+}
+
+.department-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

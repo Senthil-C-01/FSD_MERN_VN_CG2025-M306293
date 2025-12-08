@@ -1,0 +1,31 @@
+.about {
+  padding: 2rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}

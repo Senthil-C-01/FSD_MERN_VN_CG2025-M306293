@@ -1,0 +1,29 @@
+.contact {
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, select, textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submitted-data {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
