@@ -1,0 +1,23 @@
+### Create
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{"title":"The Alchemist","author":"Paulo Coelho","publishedYear":1988,"genre":"Fiction"}
+
+### All
+GET http://localhost:3000/books
+
+### by genre
+GET http://localhost:3000/books?genre=Programming
+
+### by id
+GET http://localhost:3000/books/6939a2767fc5dc47103e89ce
+
+### update
+PUT http://localhost:3000/books/6939a2767fc5dc47103e89ce
+Content-Type: application/json
+
+{"genre":"Software Engineering","publishedYear":2009}
+
+### delete
+DELETE http://localhost:3000/books/6939a2767fc5dc47103e89ce
