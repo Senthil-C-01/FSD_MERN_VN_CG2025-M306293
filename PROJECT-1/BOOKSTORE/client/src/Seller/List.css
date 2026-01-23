@@ -1,0 +1,78 @@
+List.css */
+.addbook-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f7f7f7;
+}
+
+.addbook-container input,
+.addbook-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.addbook-container button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.addbook-container button:hover {
+  background: #0056b3;
+}
+
+
+
+/* Admin.css */
+/* .login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #0056b3;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background: #222;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

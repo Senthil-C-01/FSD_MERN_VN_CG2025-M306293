@@ -1,0 +1,64 @@
+/* GLOBAL */
+.orders-page {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 20px 30px;
+}
+
+/* CONTAINER */
+.orders-container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.orders-container h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.orders-container p {
+  color: #475569;
+  font-size: 14px;
+}
+
+/* TABLE */
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.orders-table th {
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+}
+
+.orders-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* SELECT DROPDOWN */
+.orders-table select {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #cbd5f5;
+  outline: none;
+  cursor: pointer;
+}
+
+.orders-table select:focus {
+  border-color: #2563eb;
+}

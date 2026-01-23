@@ -1,0 +1,32 @@
+/* GLOBAL */
+.myproducts-page {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 20px 30px;
+}
+
+/* CONTAINER */
+.myproducts-container {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.myproducts-container h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* GRID OF BOOKS */
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* EMPTY STATE */
+.myproducts-container p {
+  color: #475569;
+  font-size: 14px;
+  margin-top: 10px;
+}

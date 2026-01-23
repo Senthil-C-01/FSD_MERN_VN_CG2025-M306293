@@ -1,0 +1,41 @@
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 30px;
+  background-color: #2563eb;
+  color: white;
+}
+
+/* LEFT */
+.nav-left h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* CENTER SEARCH */
+.nav-center input {
+  padding: 7px 12px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* RIGHT LINKS */
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}

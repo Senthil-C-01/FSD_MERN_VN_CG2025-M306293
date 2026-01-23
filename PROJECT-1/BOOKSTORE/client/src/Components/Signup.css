@@ -1,0 +1,109 @@
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0e7ff, #f8fafc);
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN BOX */
+.signup-box {
+  background-color: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* TITLE */
+.signup-box h2 {
+  margin-bottom: 5px;
+  color: #1e293b;
+}
+
+/* SUBTITLE */
+.signup-box p {
+  margin-bottom: 20px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* FORM */
+.signup-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* INPUTS */
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.signup-box input:focus {
+  border-color: #2563eb;
+}
+
+/* BUTTON */
+.signup-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background-color: #1d4ed8;
+}
+
+/* FOOTER */
+.signup-footer {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-footer span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 500;
+}
+/* ROLE SELECT */
+.role-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.role-select:focus {
+  border-color: #2563eb;
+}
+
+/* ADMIN NOTE */
+.admin-note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.admin-note span {
+  color: #dc2626;
+  font-weight: 500;
+  cursor: pointer;
+}

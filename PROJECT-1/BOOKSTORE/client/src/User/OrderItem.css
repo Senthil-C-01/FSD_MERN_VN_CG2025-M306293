@@ -1,0 +1,98 @@
+.order-item-card {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* HEADER */
+.order-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-date {
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* STATUS */
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.delivered {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status.shipped {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.status.processing {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+/* ITEMS */
+.order-item-list {
+  margin: 10px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1e293b;
+}
+
+.order-book {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 3px;
+}
+
+/* FOOTER */
+.order-item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tracking {
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* BUTTON */
+.track-btn {
+  padding: 6px 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.track-btn:hover {
+  background-color: #1d4ed8;
+}
+.order-delivery {
+  margin: 15px 0;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.order-delivery p {
+  margin: 4px 0;
+}
